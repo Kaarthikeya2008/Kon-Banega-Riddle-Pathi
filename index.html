@@ -1,0 +1,44 @@
+<!DOCTYPE html><html><head>
+  <title>WORD HUNT</title>
+  
+  <script src="p5.min.js"></script>
+  <script src="p5.dom.min.js"></script>
+  <script src="p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+
+<body>
+ 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+  apiKey: "AIzaSyAL8p95pD5a1XEDfLQR29JpU3cM0JkZZ8I",
+  authDomain: "word-hunt-cc632.firebaseapp.com",
+  databaseURL: "https://word-hunt-cc632-default-rtdb.firebaseio.com",
+  projectId: "word-hunt-cc632",
+  storageBucket: "word-hunt-cc632.appspot.com",
+  messagingSenderId: "400217331916",
+  appId: "1:400217331916:web:baee014ce312526ecc4a69"
+};
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+
+<script src="game.js"></script>
+<script src="form.js"></script>
+<script src="player.js"></script>
+
+<script src="question.js"></script>
+<script src="sketch.js"></script>
+</body></html>
